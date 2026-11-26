@@ -2,6 +2,7 @@
 {
   "name": "Tic Tac Toe",
   "short_name": "Tic Tac Toe",
+"id": "/tic-tac-toe-game/",
   "description": "A fun two-player Tic Tac Toe game.",
   "start_url": "./",
   "scope": "./",
