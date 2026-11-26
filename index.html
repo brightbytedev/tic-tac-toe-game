@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Style.css"><link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#667eea">
+</head>
+<body>
+
+    <div class="game-container">
+
+        <h1>Tic Tac Toe</h1>
+
+        <p id="status">Player X's Turn</p>
+
+        <div class="scoreboard">
+            <div>
+                <h3>Player X</h3>
+                <p id="scoreX">0</p>
+            </div>
+
+            <div>
+                <h3>Player O</h3>
+                <p id="scoreO">0</p>
+            </div>
+
+            <div>
+                <h3>Draws</h3>
+                <p id="drawScore">0</p>
+            </div>
+        </div>
+
+        <div class="game-board">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+        </div>
+
+        <button id="restart">Restart Game</button>
+
+    </div>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
