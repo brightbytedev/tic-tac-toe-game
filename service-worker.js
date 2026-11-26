@@ -1,12 +1,14 @@
 
-const CACHE_NAME = "tic-tac-toe-v1";
+const CACHE_NAME = "tic-tac-toe-v2";
 
 const FILES_TO_CACHE = [
     "./",
     "./index.html",
     "./Style.css",
     "./Script.js",
-    "./manifest.json"
+    "./manifest.json",
+    "./icons/icon-192.png",
+    "./icons/icon-512.png"
 ];
 
 // Install the service worker
@@ -45,3 +47,4 @@ self.addEventListener("fetch", event => {
         })
     );
 });
+
